@@ -1,0 +1,72 @@
+
+
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #0a00148b;
+  color: #dbdbdb;
+  border-radius: 1.5rem;
+}
+
+.chart-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.chart-container {
+  width: 80%;
+  padding: 20px;
+  background-color: #3f475a;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stock-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.stock-details {
+  text-align: right;
+}
+
+.last-price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.price-trend {
+  font-size: 16px;
+  color: #757575;
+}
+
+.stock-stats {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  background-color: #0a00148b;
+  border-radius: 8px;
+}
+
+.stat-item {
+  width: calc(100% / 7);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #757575;
+  margin-bottom: 5px;
+}
+
+.stat-value {
+  font-size: 16px;
+  font-weight: bold;
+}
+
